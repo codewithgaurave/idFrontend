@@ -7,7 +7,7 @@ import Dashboard from './components/Dashboard';
 import IDCard from './components/IDCard ';
 import IDCardFront from './components/IDCardFront';
 import ChooseTemplate from './components/ChooseTemplate';
-import LandScape from './components/landScape';
+import LandScape from './components/LandScape';
 import PackagesPage from './components/PackagesPage';
 
 const App = () => {
