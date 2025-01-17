@@ -1,0 +1,120 @@
+.mainFront {
+  height: 500px;
+  width: 400px;
+  margin: auto;
+  margin-top: 10%;
+  background-color: #f8ecd4;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.backgroundDecor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.decor {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.decor1 img{
+    position: absolute;
+    top: -80px;
+    left: 250px;
+    height: 150px;
+    width: 150px;
+}
+
+.decor2 img{
+  position: absolute;
+  left: 65px;
+  height: 100px;
+  width: 100px;
+}
+
+.decor3 img{
+  position: absolute;
+  left: -20px;
+  height: 100px;
+  top:150px;
+}
+
+
+.decor4 {
+    height: 500px;
+    width: 600px;
+    top: 320px;
+    left: -50px;
+    background: #ffab91;
+}
+
+.schoolDetail {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1;
+  position: relative;
+}
+
+.schoolDetail img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.schoolName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.studentDetail {
+  width: 100%;
+  height: 80%;
+  padding: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.studentDetail .studentImage {
+  height: 150px;
+  width: 120px;
+  border: 5px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.studentImage img {
+  height: 100%;
+  width: 100%;
+}
+
+.personalDetail {
+  margin-top: 20px;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.personalDetail p {
+  margin: 5px 0;
+}
+
+.personalDetail strong {
+  color: #000;
+}
